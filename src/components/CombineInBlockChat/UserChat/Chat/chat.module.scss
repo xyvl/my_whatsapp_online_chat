@@ -1,0 +1,52 @@
+@import "../../../../main.scss";
+.main{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.window {
+  flex-grow: 1;
+  background: url("https://phonoteka.org/uploads/posts/2021-04/1619162297_2-phonoteka_org-p-fon-vatsap-2.jpg")  no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: auto;
+}
+.form {
+  background: $main_light;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textarea {
+  width: 60%;
+  padding: 10px 5px;
+  font-size: 1.2em;
+  resize: none;
+}
+.btn {
+  width: 15%;
+  font-size: 1.2em;
+  padding: 17px 0;
+}
+
+.message {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 25px;
+  max-width: 40%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.message_my {
+  margin-left: auto;
+  background: $my_text;
+}
+.message_interlocutor {
+  margin-right: auto;
+  background: $main_light;
+}

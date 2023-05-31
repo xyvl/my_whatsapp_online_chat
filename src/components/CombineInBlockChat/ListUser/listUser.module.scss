@@ -1,0 +1,57 @@
+@import "../../../main.scss";
+.main{
+	position: relative;
+	height: 90vh;
+	border-right: 2px solid $main_light;
+}
+.add_number{
+	cursor: pointer;
+	width: 100%;
+	min-height: 9vh;
+	font-size: 1.3vw;
+	background: $main_color;
+	display: flex;
+	align-items: center;
+	padding-left: 0.8vw;
+	border-bottom: 2px solid $main_light;
+	&:hover{
+		background: rgba($main_light, .9);
+	}
+}
+.form{
+	width: 100%;
+	min-height: 9vh;
+	background: $main_color;
+	display: flex;
+}
+.input{
+	padding: 10px 5px;
+	font-size: 1.2em;
+	width: 75%;
+}
+.btn{
+	font-size: 1.2em;
+	width: 25%;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	&:hover{
+		background: $main_light;
+		color: $text_main;
+	}
+}
+.info{
+	font-size: 1.2em;
+	color: $text_main;
+	margin: 10px 5px;
+}
+.error{
+	color: red;
+}
+.user{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: $text_main;
+}

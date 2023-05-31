@@ -1,0 +1,31 @@
+$main_color: #07131b;
+$main_light: #24353f;
+$text_main: rgb(209, 215, 219);
+$text_main_light: rgb(134, 150, 160);
+$my_text: #027302;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: $main_color;
+  font-family: sans-serif;
+  color: $text_main;
+}
+button, input[type = "submit"]{
+  cursor: pointer;
+  border: none;
+}
+.wrapper {
+  border: 2px solid white;
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  min-height: 90%;
+  top: 5%;
+}
+.active{
+  background: $main_light !important;
+}
